@@ -17,20 +17,13 @@
     <![endif]-->
 </head>
 <body>
+
+
 <!-- Main Container -->
 <div class="container"> 
   <!-- Navigation -->
-  <header> <a href="">
-    <h4 class="logo">LIGHT</h4>
-    </a>
-    <nav>
-      <ul>
-        <li><a href="#hero">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li> <a href="#contact">CONTACT</a></li>
-      </ul>
-    </nav>
-  </header>
+  
+<?php include 'header.php';?>
   <!-- Hero Section -->
   <section class="hero" id="hero">
     <h2 class="hero_header">HERO <span class="light">LIGHT</span></h2>
@@ -72,19 +65,9 @@
     <p class="parallax_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
   </section>
   <!-- More Info Section -->
-  <footer>
-    <article class="footer_column">
-      <h3>ABOUT</h3>
-      <img src="images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
-    </article>
-    <article class="footer_column">
-      <h3>LOCATION</h3>
-      <img src="images/placeholder.jpg" alt="" width="400" height="200" class="cards"/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
-    </article>
-  </footer>
+ 
   <!-- Footer Section -->
+  <?php include 'footer.php';?>
   <section class="footer_banner" id="contact">
     <h2 class="hidden">Footer Banner Section </h2>
     <p class="hero_header">FOR THE LATEST NEWS &amp; UPDATES</p>
