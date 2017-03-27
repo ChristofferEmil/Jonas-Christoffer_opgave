@@ -6,7 +6,7 @@
 ?>
 
 <header> <a href="">
-    <h4 class="logo">LIGHT</h4>
+    <h4 class="logo">JK & CC</h4>
     </a>
     <nav>
       <ul>
