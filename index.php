@@ -6,21 +6,20 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jonas & Christoffer</title>
-<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <script>var __adobewebfontsappname__="dreamweaver"</script>
 <script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
-
 </head>
 
 
-<body>
+
 
 <!-- Main Container -->
 <div class="container"> 
   <!-- Navigation -->
   
-<?php include 'header.php';?>
+<?php get_header();
+?>
  
  
  <section style="width:100%; height:500px; background-color:white; text-align: center; margin-top: 20px;">
@@ -34,11 +33,16 @@
 
  </section>
 
+  
+  <!-- loop start -->
+				<?php get_template_part( "loop" ); ?>
+			<!-- loop end -->
+
 
   <!-- Footer Section -->
-  <?php include 'footer.php'; ?>
+<?php get_footer();
+?>
  
  
-<!-- Main Container Ends -->
-</body>
-</html>
+
+

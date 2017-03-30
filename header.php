@@ -1,9 +1,4 @@
-<?php
 
-
-
-
-?>
 
 <header> <a href="">
     <h4 class="logo">JK & CC</h4>
@@ -16,4 +11,17 @@
       </ul>
     </nav>
   </header>
+
+
+<?php
+
+
+wp_head(); ?>
+
+
+  
+  
+  
+  <body>
+  
 
