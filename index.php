@@ -34,9 +34,9 @@
  <button class="btn" onclick="<?php echo "Hello world"; ?>">JA</button>
  
  <button class="btn" onclick="<?php echo "Hello world"; ?>">NEJ</button>
+ >
  </section>
 
->
 
   <!-- Footer Section -->
   <?php include 'footer.php'; ?>
