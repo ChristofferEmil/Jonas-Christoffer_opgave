@@ -26,10 +26,17 @@
  <section style="width:100%; height:500px; background-color:white; text-align: center; margin-top: 20px;">
  <h1 style="font-size: 50px;">Er du over 18 år?</h1>
  
+ 
+ <div class="container">
+  <div class="row">
+    <div class="col-sm-4"
+    
  <button class="btn" onclick="<?php echo "Hello world"; ?>">JA</button>
  
  <button class="btn" onclick="<?php echo "Hello world"; ?>">NEJ</button>
  </section>
+
+>
 
   <!-- Footer Section -->
   <?php include 'footer.php'; ?>
